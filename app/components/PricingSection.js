@@ -12,7 +12,42 @@ export default function PricingSection() {
             Planes escalables diseñados para cada etapa de tu negocio de belleza.
           </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full">
+
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 w-full">
+          <div className="pricing-card bg-white dark:bg-slate-900 p-10 rounded-3xl border border-slate-200 dark:border-slate-800 flex flex-col">
+            <h3 className="text-slate-900 dark:text-white text-2xl font-bold mb-2">Basic</h3>
+            <p className="text-slate-500 text-sm mb-8">
+              Ideal para comenzar con lo esencial sin complicaciones.
+            </p>
+
+            <div className="flex items-baseline gap-1 mb-8">
+              <span className="text-4xl font-black text-slate-900 dark:text-white">$29</span>
+              <span className="text-slate-500 text-sm">/mes</span>
+            </div>
+
+            <ul className="space-y-4 mb-10 flex-grow">
+              <li className="flex items-center gap-3 text-slate-600 dark:text-slate-300 text-sm">
+                <span className="material-symbols-outlined text-primary text-lg">check</span>
+                1 Sucursal
+              </li>
+              <li className="flex items-center gap-3 text-slate-600 dark:text-slate-300 text-sm">
+                <span className="material-symbols-outlined text-primary text-lg">check</span>
+                Hasta 3 estilistas
+              </li>
+              <li className="flex items-center gap-3 text-slate-600 dark:text-slate-300 text-sm">
+                <span className="material-symbols-outlined text-primary text-lg">check</span>
+                Facturación Inicial de 100 DTEs /Mes
+              </li>
+              <li className="flex items-center gap-3 text-slate-600 dark:text-slate-300 text-sm">
+                <span className="material-symbols-outlined text-primary text-lg">check</span>
+                Agenda Inteligente
+              </li>
+            </ul>
+
+            <button className="w-full py-4 rounded-xl border-2 border-slate-200 dark:border-slate-800 text-slate-900 dark:text-white font-bold hover:bg-slate-100 dark:hover:bg-slate-800 transition-all">
+              Probar Básico
+            </button>
+          </div>
           <div className="pricing-card bg-white dark:bg-slate-900 p-10 rounded-3xl border border-slate-200 dark:border-slate-800 flex flex-col">
             <h3 className="text-slate-900 dark:text-white text-2xl font-bold mb-2">Starter</h3>
             <p className="text-slate-500 text-sm mb-8">
@@ -33,7 +68,7 @@ export default function PricingSection() {
               </li>
               <li className="flex items-center gap-3 text-slate-600 dark:text-slate-300 text-sm">
                 <span className="material-symbols-outlined text-primary text-lg">check</span>
-                Facturación Básica
+                Facturación Básica de 350 DTEs /Mes
               </li>
               <li className="flex items-center gap-3 text-slate-600 dark:text-slate-300 text-sm">
                 <span className="material-symbols-outlined text-primary text-lg">check</span>
