@@ -8,7 +8,7 @@ export default function Header() {
           <span className="material-symbols-outlined text-4xl">diamond</span>
         </div>
         <h2 className="text-slate-900 dark:text-white text-xl font-extrabold leading-tight tracking-tight">
-          GlowSaaS
+          BeautyFlow
         </h2>
       </div>
       <div className="hidden md:flex flex-1 justify-end gap-10">

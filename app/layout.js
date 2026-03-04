@@ -9,7 +9,7 @@ const manrope = Manrope({
 });
 
 export const metadata = {
-  title: 'GlowSaaS - El Sistema Operativo para Imperios de Belleza',
+  title: 'BeautyFlow - El Sistema Operativo para Imperios de Belleza',
   description: 'Domina tu crecimiento con analíticas de alta fidelidad, retención automatizada e inteligencia de inventario. Diseñado para CEOs que no aceptan la mediocridad.',
 };
 

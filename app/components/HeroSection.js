@@ -38,7 +38,7 @@ export default function HeroSection() {
                 <div className="size-3 rounded-full bg-emerald-500"></div>
               </div>
               <div className="mx-auto text-[10px] text-slate-500 font-mono uppercase tracking-widest">
-                GlowSaaS - Panel Multi-Sucursal
+                BeautyFlow - Panel Multi-Sucursal
               </div>
             </div>
             <img

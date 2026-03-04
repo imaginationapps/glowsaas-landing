@@ -9,7 +9,7 @@ export default function Footer() {
             <div className="size-6 text-primary">
               <span className="material-symbols-outlined text-3xl">diamond</span>
             </div>
-            <h2 className="text-slate-900 dark:text-white text-lg font-extrabold">GlowSaaS</h2>
+            <h2 className="text-slate-900 dark:text-white text-lg font-extrabold">BeautyFlow</h2>
           </div>
           <p className="text-slate-500 dark:text-slate-400 text-sm leading-relaxed">
             La plataforma de gestión definitiva para negocios de belleza modernos. Diseñada para el rendimiento, creada para el lujo.
@@ -66,7 +66,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="max-w-7xl mx-auto pt-12 mt-12 border-t border-slate-200 dark:border-slate-800 flex flex-col md:flex-row justify-between items-center gap-4">
-        <p className="text-slate-400 text-xs">© 2024 GlowSaaS Technologies Inc. Todos los derechos reservados.</p>
+        <p className="text-slate-400 text-xs">© 2026 BeautyFlow Technologies Inc. Todos los derechos reservados.</p>
         <div className="flex gap-6">
           <span className="text-slate-400 text-xs flex items-center gap-1">
             <span className="material-symbols-outlined text-[12px] text-accent-growth">lock</span> Conexión Segura SSL

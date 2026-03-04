@@ -1,8 +1,8 @@
-# GlowSaaS - Landing Page
+# BeautyFlow - Landing Page
 
 ## 📋 Descripción
 
-Landing page profesional para **GlowSaaS**, el sistema operativo para imperios del sector belleza. Diseñada para mostrar las capacidades de gestión multi-sucursal, inteligencia artificial y facturación electrónica.
+Landing page profesional para **BeautyFlow**, el sistema operativo para imperios del sector belleza. Diseñada para mostrar las capacidades de gestión multi-sucursal, inteligencia artificial y facturación electrónica.
 
 ## 🚀 Tecnologías Utilizadas
 
@@ -148,7 +148,7 @@ colors: {
 ## 📄 Metadata SEO
 
 ```javascript
-title: 'GlowSaaS - El Sistema Operativo para Imperios de Belleza'
+title: 'BeautyFlow - El Sistema Operativo para Imperios de Belleza'
 description: 'Domina tu crecimiento con analíticas de alta fidelidad...'
 ```
 
