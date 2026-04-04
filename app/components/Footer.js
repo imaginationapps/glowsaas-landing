@@ -9,10 +9,11 @@ export default function Footer() {
             <div className="size-6 text-primary">
               <span className="material-symbols-outlined text-3xl">diamond</span>
             </div>
-            <h2 className="text-slate-900 dark:text-white text-lg font-extrabold">BeautyFlow</h2>
+            <h2 className="text-slate-900 dark:text-white text-lg font-extrabold">StyleFlow</h2>
           </div>
           <p className="text-slate-500 dark:text-slate-400 text-sm leading-relaxed">
-            La plataforma de gestión definitiva para negocios de belleza modernos. Diseñada para el rendimiento, creada para el lujo.
+            La plataforma de gestión para negocios de estilo modernos. Diseñada para operar con
+            más claridad, control y consistencia.
           </p>
           <div className="flex gap-4">
             <div className="size-8 rounded-full bg-slate-200 dark:bg-slate-800 flex items-center justify-center text-slate-600 dark:text-slate-400 cursor-pointer hover:bg-primary hover:text-white transition-colors">
@@ -66,10 +67,11 @@ export default function Footer() {
         </div>
       </div>
       <div className="max-w-7xl mx-auto pt-12 mt-12 border-t border-slate-200 dark:border-slate-800 flex flex-col md:flex-row justify-between items-center gap-4">
-        <p className="text-slate-400 text-xs">© 2026 BeautyFlow Technologies Inc. Todos los derechos reservados.</p>
+        <p className="text-slate-400 text-xs">© 2026 StyleFlow Technologies Inc. Todos los derechos reservados.</p>
         <div className="flex gap-6">
           <span className="text-slate-400 text-xs flex items-center gap-1">
-            <span className="material-symbols-outlined text-[12px] text-accent-growth">lock</span> Conexión Segura SSL
+            <span className="material-symbols-outlined text-[12px] text-accent-growth">lock</span>
+            Conexión Segura SSL
           </span>
         </div>
       </div>

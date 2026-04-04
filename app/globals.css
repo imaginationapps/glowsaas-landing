@@ -5,17 +5,23 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  body {
+    font-family: 'Manrope', sans-serif;
+  }
+}
+
 @layer utilities {
   .glass-panel {
     @apply bg-white/10 backdrop-blur-md border border-white/20;
   }
-  
+
   .pricing-card {
     @apply transition-all duration-300 hover:-translate-y-2;
   }
-  
+
   .gold-text {
-    color: #D4AF37;
+    color: #C59A5C;
   }
 }
 

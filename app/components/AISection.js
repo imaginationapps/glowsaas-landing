@@ -4,19 +4,21 @@ export default function AISection() {
   return (
     <section className="px-6 md:px-20 py-24 bg-dark-accent relative overflow-hidden" id="ai">
       <div className="absolute top-0 left-0 w-full h-full opacity-10 pointer-events-none">
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,#B83280_0%,transparent_50%)]"></div>
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,#0F766E_0%,transparent_50%)]"></div>
       </div>
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
         <div className="flex flex-col gap-8">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 text-light-accent text-xs font-bold uppercase tracking-wider w-fit">
-            Motor GlowAI Activo
+            Motor StyleFlow AI
           </div>
           <h2 className="text-white text-4xl md:text-6xl font-black leading-tight">
-            Tu competencia trabaja.<br />
-            <span className="text-primary">Tú predices.</span>
+            Tu mercado se mueve.
+            <br />
+            <span className="text-primary">Tú te anticipas.</span>
           </h2>
           <p className="text-slate-300 text-lg leading-relaxed">
-            Utiliza inteligencia artificial para anticipar ventas, optimizar inventario y detectar oportunidades antes que los demás.
+            Utiliza inteligencia artificial para anticipar ventas, optimizar inventario y detectar
+            oportunidades antes que los demás.
           </p>
           <ul className="space-y-5">
             <li className="flex gap-4 items-start">
@@ -24,8 +26,10 @@ export default function AISection() {
                 <span className="material-symbols-outlined text-primary text-sm">auto_awesome</span>
               </div>
               <div>
-                <p className="text-white font-bold">Predicción de días fuertes</p>
-                <p className="text-slate-400 text-sm">Ajusta tu personal basado en la demanda proyectada por IA.</p>
+                <p className="text-white font-bold">Predicción de días de mayor demanda</p>
+                <p className="text-slate-400 text-sm">
+                  Ajusta tu operación según el comportamiento proyectado por IA.
+                </p>
               </div>
             </li>
             <li className="flex gap-4 items-start">
@@ -34,7 +38,9 @@ export default function AISection() {
               </div>
               <div>
                 <p className="text-white font-bold">Alertas de inventario críticas</p>
-                <p className="text-slate-400 text-sm">Reabastece solo lo que necesitas antes del desabasto.</p>
+                <p className="text-slate-400 text-sm">
+                  Reabastece con criterio y evita quiebres en productos clave.
+                </p>
               </div>
             </li>
             <li className="flex gap-4 items-start">
@@ -43,7 +49,9 @@ export default function AISection() {
               </div>
               <div>
                 <p className="text-white font-bold">Segmentación automática de clientes</p>
-                <p className="text-slate-400 text-sm">Identifica perfiles de alto valor sin mover un dedo.</p>
+                <p className="text-slate-400 text-sm">
+                  Detecta perfiles de alto valor y comportamientos recurrentes sin análisis manual.
+                </p>
               </div>
             </li>
             <li className="flex gap-4 items-start">
@@ -51,8 +59,10 @@ export default function AISection() {
                 <span className="material-symbols-outlined text-primary text-sm">ads_click</span>
               </div>
               <div>
-                <p className="text-white font-bold">Promociones inteligentes</p>
-                <p className="text-slate-400 text-sm">Campañas personalizadas que convierten 3 veces más.</p>
+                <p className="text-white font-bold">Campañas más precisas</p>
+                <p className="text-slate-400 text-sm">
+                  Activa promociones segmentadas que mejoran conversión y recurrencia.
+                </p>
               </div>
             </li>
           </ul>
@@ -78,7 +88,7 @@ export default function AISection() {
               <div className="flex-1 bg-primary/60 rounded-t-lg h-[60%]"></div>
               <div className="flex-1 bg-primary/80 rounded-t-lg h-[85%] relative">
                 <div className="absolute -top-10 left-1/2 -translate-x-1/2 bg-white text-slate-900 text-[10px] font-bold px-2 py-1 rounded shadow-lg whitespace-nowrap">
-                  Pico esperado: Sáb
+                  Pico esperado: sáb
                 </div>
               </div>
               <div className="flex-1 bg-primary rounded-t-lg h-[95%]"></div>
@@ -92,7 +102,7 @@ export default function AISection() {
               </div>
               <div className="p-4 rounded-2xl bg-white/5 border border-white/10">
                 <p className="text-slate-400 text-xs uppercase mb-1">Insights</p>
-                <p className="text-white text-xl font-bold">14 Nuevos</p>
+                <p className="text-white text-xl font-bold">14 nuevos</p>
               </div>
             </div>
           </div>

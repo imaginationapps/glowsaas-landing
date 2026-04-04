@@ -9,12 +9,12 @@ export default function ScalabilitySection() {
             <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-primary to-accent-growth"></div>
             <div className="flex justify-between items-end mb-8">
               <div>
-                <h4 className="text-white text-lg font-bold">Consolidado Nacional</h4>
-                <p className="text-light-accent text-xs">8 sucursales activas</p>
+                <h4 className="text-white text-lg font-bold">Consolidado nacional</h4>
+                <p className="text-light-accent text-xs">8 sedes activas</p>
               </div>
               <div className="text-right">
                 <p className="text-gold-accent font-bold text-xl">+24%</p>
-                <p className="text-slate-400 text-[10px] uppercase">Crecimiento Mensual</p>
+                <p className="text-slate-400 text-[10px] uppercase">Crecimiento mensual</p>
               </div>
             </div>
             <div className="space-y-4">
@@ -24,7 +24,7 @@ export default function ScalabilitySection() {
                     S1
                   </div>
                   <div>
-                    <p className="text-white text-sm font-semibold">Sucursal Polanco</p>
+                    <p className="text-white text-sm font-semibold">Sede Central</p>
                     <div className="w-32 h-1 bg-slate-700 rounded-full mt-1 overflow-hidden">
                       <div className="h-full bg-gold-accent w-[92%]"></div>
                     </div>
@@ -38,7 +38,7 @@ export default function ScalabilitySection() {
                     S2
                   </div>
                   <div>
-                    <p className="text-white text-sm font-semibold">Sucursal Condesa</p>
+                    <p className="text-white text-sm font-semibold">Sede Norte</p>
                     <div className="w-32 h-1 bg-slate-700 rounded-full mt-1 overflow-hidden">
                       <div className="h-full bg-gold-accent w-[78%]"></div>
                     </div>
@@ -52,7 +52,7 @@ export default function ScalabilitySection() {
                     S3
                   </div>
                   <div>
-                    <p className="text-white text-sm font-semibold">Sucursal Santa Fe</p>
+                    <p className="text-white text-sm font-semibold">Sede Premium</p>
                     <div className="w-32 h-1 bg-slate-700 rounded-full mt-1 overflow-hidden">
                       <div className="h-full bg-gold-accent w-[65%]"></div>
                     </div>
@@ -63,7 +63,7 @@ export default function ScalabilitySection() {
             </div>
           </div>
           <div className="absolute -bottom-6 -right-6 bg-gold-accent p-6 rounded-2xl shadow-xl text-dark-accent">
-            <p className="text-xs uppercase font-bold opacity-80">Proyección Trimestral</p>
+            <p className="text-xs uppercase font-bold opacity-80">Proyección trimestral</p>
             <p className="text-2xl font-black">+152%</p>
           </div>
         </div>
@@ -72,16 +72,16 @@ export default function ScalabilitySection() {
             Escala sin perder el control.
           </h2>
           <p className="text-slate-600 dark:text-slate-400 text-lg leading-relaxed">
-            Gestiona múltiples sucursales, equipos y metas con visión empresarial desde una única interfaz de alto rendimiento.
+            Gestiona múltiples sedes, equipos y metas desde una sola interfaz con visión ejecutiva.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-y-4 gap-x-8 mt-4">
             <div className="flex items-center gap-3 font-bold text-slate-800 dark:text-slate-200">
               <span className="material-symbols-outlined text-primary">analytics</span>
-              Comparativa entre sucursales
+              Comparativa entre sedes
             </div>
             <div className="flex items-center gap-3 font-bold text-slate-800 dark:text-slate-200">
               <span className="material-symbols-outlined text-primary">group</span>
-              Metas por estilista
+              Metas por equipo
             </div>
             <div className="flex items-center gap-3 font-bold text-slate-800 dark:text-slate-200">
               <span className="material-symbols-outlined text-primary">monitoring</span>

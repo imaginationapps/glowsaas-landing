@@ -9,16 +9,16 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'primary': '#B83280',
-        'accent-growth': '#2D6A4F',
-        'dark-accent': '#4A154B',
-        'gold-accent': '#D4AF37',
-        'light-accent': '#E8A0BF',
-        'background-light': '#f8f6f7',
-        'background-dark': '#20121a',
+        'primary': '#0F766E',
+        'accent-growth': '#2563EB',
+        'dark-accent': '#14212B',
+        'gold-accent': '#C59A5C',
+        'light-accent': '#8FBFC7',
+        'background-light': '#F3F6F5',
+        'background-dark': '#0D141B',
       },
       fontFamily: {
-        'display': ['var(--font-manrope)', 'sans-serif'],
+        'display': ['Manrope', 'sans-serif'],
       },
       borderRadius: {
         'DEFAULT': '0.25rem',

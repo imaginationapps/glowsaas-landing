@@ -9,7 +9,7 @@ export default function PricingSection() {
             Invierte en control. Multiplica tus resultados.
           </h2>
           <p className="text-slate-600 dark:text-slate-400 text-lg">
-            Planes escalables diseñados para cada etapa de tu negocio de belleza.
+            Planes escalables diseñados para cada etapa de tu operación.
           </p>
         </div>
 
@@ -17,7 +17,7 @@ export default function PricingSection() {
           <div className="pricing-card bg-white dark:bg-slate-900 p-10 rounded-3xl border border-slate-200 dark:border-slate-800 flex flex-col">
             <h3 className="text-slate-900 dark:text-white text-2xl font-bold mb-2">Basic</h3>
             <p className="text-slate-500 text-sm mb-8">
-              Ideal para comenzar con lo esencial sin complicaciones.
+              Ideal para comenzar con lo esencial sin complejidad operativa.
             </p>
 
             <div className="flex items-baseline gap-1 mb-8">
@@ -28,30 +28,30 @@ export default function PricingSection() {
             <ul className="space-y-4 mb-10 flex-grow">
               <li className="flex items-center gap-3 text-slate-600 dark:text-slate-300 text-sm">
                 <span className="material-symbols-outlined text-primary text-lg">check</span>
-                1 Sucursal
+                1 sede
               </li>
               <li className="flex items-center gap-3 text-slate-600 dark:text-slate-300 text-sm">
                 <span className="material-symbols-outlined text-primary text-lg">check</span>
-                Hasta 3 estilistas
+                Hasta 3 usuarios
               </li>
               <li className="flex items-center gap-3 text-slate-600 dark:text-slate-300 text-sm">
                 <span className="material-symbols-outlined text-primary text-lg">check</span>
-                Facturación Inicial de 100 DTEs /Mes
+                Facturación inicial de 100 DTEs / mes
               </li>
               <li className="flex items-center gap-3 text-slate-600 dark:text-slate-300 text-sm">
                 <span className="material-symbols-outlined text-primary text-lg">check</span>
-                Agenda Inteligente
+                Agenda inteligente
               </li>
             </ul>
 
             <button className="w-full py-4 rounded-xl border-2 border-slate-200 dark:border-slate-800 text-slate-900 dark:text-white font-bold hover:bg-slate-100 dark:hover:bg-slate-800 transition-all">
-              Probar Básico
+              Probar Basic
             </button>
           </div>
           <div className="pricing-card bg-white dark:bg-slate-900 p-10 rounded-3xl border border-slate-200 dark:border-slate-800 flex flex-col">
             <h3 className="text-slate-900 dark:text-white text-2xl font-bold mb-2">Starter</h3>
             <p className="text-slate-500 text-sm mb-8">
-              Para salones boutique que inician su digitalización.
+              Para negocios en crecimiento que necesitan más orden y visibilidad.
             </p>
             <div className="flex items-baseline gap-1 mb-8">
               <span className="text-4xl font-black text-slate-900 dark:text-white">$49</span>
@@ -60,23 +60,23 @@ export default function PricingSection() {
             <ul className="space-y-4 mb-10 flex-grow">
               <li className="flex items-center gap-3 text-slate-600 dark:text-slate-300 text-sm">
                 <span className="material-symbols-outlined text-primary text-lg">check</span>
-                1 Sucursal
+                1 sede
               </li>
               <li className="flex items-center gap-3 text-slate-600 dark:text-slate-300 text-sm">
                 <span className="material-symbols-outlined text-primary text-lg">check</span>
-                Hasta 5 estilistas
+                Hasta 5 usuarios
               </li>
               <li className="flex items-center gap-3 text-slate-600 dark:text-slate-300 text-sm">
                 <span className="material-symbols-outlined text-primary text-lg">check</span>
-                Facturación Básica de 350 DTEs /Mes
+                Facturación estándar de 350 DTEs / mes
               </li>
               <li className="flex items-center gap-3 text-slate-600 dark:text-slate-300 text-sm">
                 <span className="material-symbols-outlined text-primary text-lg">check</span>
-                Agenda Inteligente
+                Agenda inteligente
               </li>
             </ul>
             <button className="w-full py-4 rounded-xl border-2 border-slate-200 dark:border-slate-800 text-slate-900 dark:text-white font-bold hover:bg-slate-100 dark:hover:bg-slate-800 transition-all">
-              Empezar Ahora
+              Empezar ahora
             </button>
           </div>
           <div className="pricing-card bg-white dark:bg-slate-900 p-10 rounded-3xl border-2 border-primary shadow-2xl shadow-primary/20 flex flex-col relative overflow-hidden">
@@ -85,7 +85,7 @@ export default function PricingSection() {
             </div>
             <h3 className="text-slate-900 dark:text-white text-2xl font-bold mb-2">Pro</h3>
             <p className="text-slate-500 text-sm mb-8">
-              La potencia total para dueñas de negocio ambiciosas.
+              La potencia total para operaciones con ambición de escalar.
             </p>
             <div className="flex items-baseline gap-1 mb-8">
               <span className="text-4xl font-black text-primary">$99</span>
@@ -94,57 +94,57 @@ export default function PricingSection() {
             <ul className="space-y-4 mb-10 flex-grow">
               <li className="flex items-center gap-3 text-slate-800 dark:text-slate-200 text-sm font-bold">
                 <span className="material-symbols-outlined text-primary text-lg">check</span>
-                Hasta 3 Sucursales
+                Hasta 3 sedes
               </li>
               <li className="flex items-center gap-3 text-slate-800 dark:text-slate-200 text-sm font-bold">
                 <span className="material-symbols-outlined text-primary text-lg">check</span>
-                Estilistas ilimitados
+                Usuarios ilimitados
               </li>
               <li className="flex items-center gap-3 text-slate-800 dark:text-slate-200 text-sm font-bold">
                 <span className="material-symbols-outlined text-primary text-lg">check</span>
-                Módulo IA de Predicción
+                Módulo IA de predicción
               </li>
               <li className="flex items-center gap-3 text-slate-800 dark:text-slate-200 text-sm font-bold">
                 <span className="material-symbols-outlined text-primary text-lg">check</span>
-                Dashboard Multicentro
+                Dashboard multisede
               </li>
               <li className="flex items-center gap-3 text-slate-800 dark:text-slate-200 text-sm font-bold">
                 <span className="material-symbols-outlined text-primary text-lg">check</span>
-                Facturación Ilimitada + Soporte VIP
+                Facturación ilimitada + soporte prioritario
               </li>
             </ul>
             <button className="w-full py-4 rounded-xl bg-primary text-white font-bold shadow-lg shadow-primary/30 hover:bg-primary/90 transition-all">
-              Impulsar Mi Crecimiento
+              Impulsar mi crecimiento
             </button>
           </div>
           <div className="pricing-card bg-white dark:bg-slate-900 p-10 rounded-3xl border border-slate-200 dark:border-slate-800 flex flex-col">
             <h3 className="text-slate-900 dark:text-white text-2xl font-bold mb-2">Enterprise</h3>
             <p className="text-slate-500 text-sm mb-8">
-              Soluciones personalizadas para cadenas y franquicias.
+              Soluciones personalizadas para grupos, cadenas y franquicias.
             </p>
             <div className="flex items-baseline gap-1 mb-8">
-              <span className="text-4xl font-black text-slate-900 dark:text-white">A Medida</span>
+              <span className="text-4xl font-black text-slate-900 dark:text-white">A medida</span>
             </div>
             <ul className="space-y-4 mb-10 flex-grow">
               <li className="flex items-center gap-3 text-slate-600 dark:text-slate-300 text-sm">
                 <span className="material-symbols-outlined text-primary text-lg">check</span>
-                Sucursales Ilimitadas
+                Sedes ilimitadas
               </li>
               <li className="flex items-center gap-3 text-slate-600 dark:text-slate-300 text-sm">
                 <span className="material-symbols-outlined text-primary text-lg">check</span>
-                API para Integraciones
+                API para integraciones
               </li>
               <li className="flex items-center gap-3 text-slate-600 dark:text-slate-300 text-sm">
                 <span className="material-symbols-outlined text-primary text-lg">check</span>
-                Consultoría de Estrategia
+                Consultoría estratégica
               </li>
               <li className="flex items-center gap-3 text-slate-600 dark:text-slate-300 text-sm">
                 <span className="material-symbols-outlined text-primary text-lg">check</span>
-                Account Manager Dedicado
+                Account manager dedicado
               </li>
             </ul>
             <button className="w-full py-4 rounded-xl border-2 border-slate-200 dark:border-slate-800 text-slate-900 dark:text-white font-bold hover:bg-slate-100 dark:hover:bg-slate-800 transition-all">
-              Contactar Ventas
+              Contactar ventas
             </button>
           </div>
         </div>
